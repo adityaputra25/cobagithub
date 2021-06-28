@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bulkit - Agency, Startup and SaaS template</title>
+        <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+        <!-- Core css -->
+        <link rel="stylesheet" id="bulma" href="assets/css/bulma.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/core_demo.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+        <!-- Plugins css -->
+        <link rel="stylesheet" type="text/css" href="assets/js/ggpopover/ggtooltip.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/slick-carousel/slick.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/slick-carousel/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/chosen/chosen.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/highlightjs/style.css">
+        <!-- Icons -->
+        <link rel="stylesheet" type="text/css" href="assets/css/icons.min.css">
+    </head>
+
+    <body>
+        <!-- Pageloader -->
+        <div class="pageloader"></div>
+        <div class="infraloader is-active"></div>
+
+        <!-- Hero and nav -->
+        <div class="hero is-relative is-theme-info">
+            <div class="navbar-wrapper navbar-minimal navbar-light">
+                <div class="hero-head">
+                    <!-- Nav -->
+                    <div class="container">
+                        <nav class="nav">
+                            <div class="container big">
+                                <div class="nav-left">
+                                    <a class="nav-item" href="index.html">
+                                        <img src="assets/images/logos/bulkit-w.png" alt="">
+                                    </a>
+                                    <!-- Sidebar trigger -->
+                                    <a id="navigation-trigger" class="nav-item hamburger-btn" href="javascript:void(0);">
+                                        <span class="menu-toggle">	
+                                            <span class="icon-box-toggle"> 	
+                                                <span class="rotate">
+                                                    <i class="icon-line-top"></i>
+                                                    <i class="icon-line-center"></i>
+                                                    <i class="icon-line-bottom"></i> 
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <!-- Responsive toggle -->
+                                <span class="nav-toggle">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                                <div class="nav-right nav-menu">
+                                    <span class="nav-item">
+                                        <a id="#signup-btn" href="#" class="button button-cta btn-outlined is-bold btn-align light-btn rounded">
+                                            Buy now
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- /Nav -->
+                </div>
+            </div>
+
+            <!-- Hero image -->
+            <div id="main-hero" class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="columns is-vcentered">
+                        <div class="column is-4 is-offset-1 has-text-left">
+                            <h1 class="title components-title is-1">
+                                Modals
+                            </h1>
+                            <h2 class="subtitle is-4 components-subtitle">
+                                Modal dialogs styles and variations.
+                            </h2>
+                            <div class="has-text-centered">
+                    <a class="button button-cta btn-align primary-btn raised modal-trigger" data-modal="vertical-form-modal">Open modal</a>
+                </div>
+
+                        </div>
+                        <div class="column is-offset-1 has-text-centered is-hidden-mobile">
+                            <div id="modals-ill" class="vivus-svg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Hero image -->
+        </div>
+        <!-- /Hero and nav -->
+
+        <!-- Scrollnav -->
+        
+        <section class="section is-medium">
+            <div class="container">
+                <div id="form-modals" class="section-title-wrapper has-text-centered">
+                    <div class="bg-number">3</div>
+                    <h2 class="title section-title has-text-centered dark-text text-bold">
+                        Modal forms
+                    </h2>
+                </div>
+
+                <!-- Vertical form modal trigger-->
+                <div class="columns is-vcentered">
+                    <div class="column is-6 is-offset-3">
+                        <div class="info-block has-text-centered">
+                            <h4>Vertical form layout</h4>
+                            <p class="no-padding">You can embed any type of form inside a modal. Just add your form inside the <code>.modal-content</code> element.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="has-text-centered">
+                    <a class="button button-cta btn-align primary-btn raised modal-trigger" data-modal="vertical-form-modal">Open modal</a>
+                </div>
+
+                <!-- Code section -->
+                <div class="columns is-vcentered">
+                    <div class="column is-8 is-offset-2">
+                        <div class="accordion-wrapper">
+                            <div class="toggle-wrap">
+                                <span class="trigger"><a href="#"><i class="im im-icon-Coding is-icon-2x"></i> SHOW CODE<i class="im im-icon-Add"></i></a></span>
+                                <div class="toggle-container">
+                                    <figure class="highlight highlight-block">
+                                        <pre><code class="html code-highlight">
+&#x3C;!-- Modal trigger --&#x3E;
+&#x3C;a class=&#x22;button button-cta btn-align primary-btn raised modal-trigger&#x22; data-modal=&#x22;vertical-form-modal&#x22;&#x3E;Open modal&#x3C;/a&#x3E;
+&#x3C;!-- /Modal trigger --&#x3E;
+
+&#x3C;!-- Modal Markup --&#x3E;
+&#x3C;div id=&#x22;vertical-form-modal&#x22; class=&#x22;modal modal-sm&#x22;&#x3E;
+    &#x3C;div class=&#x22;modal-background&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;modal-content&#x22;&#x3E;
+        &#x3C;div class=&#x22;flex-card simple-shadow&#x22;&#x3E;
+            &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+                &#x3C;h2 class=&#x22;title has-text-centered is-3 mb-40&#x22;&#x3E;Login&#x3C;/h2&#x3E;
+                &#x3C;div class=&#x22;control-material is-accent&#x22;&#x3E;      
+                    &#x3C;input class=&#x22;material-input&#x22; type=&#x22;text&#x22; required&#x3E;
+                    &#x3C;span class=&#x22;material-highlight&#x22;&#x3E;&#x3C;/span&#x3E;
+                    &#x3C;span class=&#x22;bar&#x22;&#x3E;&#x3C;/span&#x3E;
+                    &#x3C;label&#x3E;Name *&#x3C;/label&#x3E;
+                &#x3C;/div&#x3E;
+                &#x3C;div class=&#x22;control-material is-accent&#x22;&#x3E;      
+                    &#x3C;input class=&#x22;material-input&#x22; type=&#x22;text&#x22; required&#x3E;
+                    &#x3C;span class=&#x22;material-highlight&#x22;&#x3E;&#x3C;/span&#x3E;
+                    &#x3C;span class=&#x22;bar&#x22;&#x3E;&#x3C;/span&#x3E;
+                    &#x3C;label&#x3E;Password *&#x3C;/label&#x3E;
+                &#x3C;/div&#x3E;
+                &#x3C;p class=&#x22;has-text-left mt-30&#x22;&#x3E;
+                    &#x3C;a class=&#x22;no-account is-accent&#x22; href=&#x22;#&#x22;&#x3E;Dont have an account?&#x3C;/a&#x3E;
+                &#x3C;/p&#x3E;
+                &#x3C;div class=&#x22;mt-20&#x22;&#x3E;
+                    &#x3C;button class=&#x22;button button-cta btn-align accent-btn raised is-fullwidth no-lh&#x22;&#x3E;Login&#x3C;/button&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;  
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;button class=&#x22;modal-close is-large is-hidden&#x22; aria-label=&#x22;close&#x22;&#x3E;&#x3C;/button&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;!-- /Modal Markup --&#x3E;
+                                        </code></pre>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Code section -->
+                <!-- /Vertical form modal trigger -->
+
+                <!-- Horizontal form modal trigger-->
+                <div class="columns is-vcentered pt-60">
+                    <div class="column is-6 is-offset-3">
+                        <div class="info-block has-text-centered">
+                            <h4>Horizontal form layout</h4>
+                            <p class="no-padding">You can embed any type of form inside a modal. Just add your form inside the <code>.modal-content</code> element.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="has-text-centered">
+                    <a class="button button-cta btn-align primary-btn raised modal-trigger" data-modal="horizontal-form-modal">Open modal</a>
+                </div>
+                <!-- Horizontal form modal trigger-->
+                
+                <!-- Code section -->
+                <div class="columns is-vcentered">
+                    <div class="column is-8 is-offset-2">
+                        <div class="accordion-wrapper">
+                            <div class="toggle-wrap">
+                                <span class="trigger"><a href="#"><i class="im im-icon-Coding is-icon-2x"></i> SHOW CODE<i class="im im-icon-Add"></i></a></span>
+                                <div class="toggle-container">
+                                    <figure class="highlight highlight-block">
+                                        <pre><code class="html code-highlight">
+&#x3C;!-- Modal trigger --&#x3E;
+&#x3C;a class=&#x22;button button-cta btn-align primary-btn raised modal-trigger&#x22; data-modal=&#x22;horizontal-form-modal&#x22;&#x3E;Open modal&#x3C;/a&#x3E;
+&#x3C;!-- /Modal trigger --&#x3E;
+
+&#x3C;!-- Modal Markup --&#x3E;
+&#x3C;div id=&#x22;horizontal-form-modal&#x22; class=&#x22;modal modal-lg&#x22;&#x3E;
+    &#x3C;div class=&#x22;modal-background&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;modal-content&#x22;&#x3E;
+        &#x3C;div class=&#x22;flex-card simple-shadow&#x22;&#x3E;
+            &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+                &#x3C;h2 class=&#x22;title is-4 text-bold mb-40&#x22;&#x3E;Create project&#x3C;/h2&#x3E;
+                &#x3C;form&#x3E;
+                    &#x3C;div class=&#x22;columns mt-40&#x22;&#x3E;
+                        &#x3C;div class=&#x22;column&#x22;&#x3E;
+                            &#x3C;div class=&#x22;control&#x22;&#x3E;
+                                &#x3C;label&#x3E;Project ID&#x3C;/label&#x3E;
+                                &#x3C;input class=&#x22;input is-medium mt-5&#x22; type=&#x22;text&#x22;&#x3E;
+                            &#x3C;/div&#x3E;
+                            &#x3C;div class=&#x22;control&#x22;&#x3E;
+                                &#x3C;label&#x3E;Project name&#x3C;/label&#x3E;
+                                &#x3C;input class=&#x22;input is-medium mt-5&#x22; type=&#x22;text&#x22;&#x3E;
+                            &#x3C;/div&#x3E;
+                        &#x3C;/div&#x3E;
+                        &#x3C;div class=&#x22;column&#x22;&#x3E;
+                            &#x3C;div class=&#x22;control&#x22;&#x3E;
+                                &#x3C;label&#x3E;Project category&#x3C;/label&#x3E;
+                                &#x3C;input class=&#x22;input is-medium mt-5&#x22; type=&#x22;text&#x22;&#x3E;
+                            &#x3C;/div&#x3E;
+                            &#x3C;div class=&#x22;control&#x22;&#x3E;
+                                &#x3C;label&#x3E;Project type&#x3C;/label&#x3E;
+                                &#x3C;input class=&#x22;input is-medium mt-5&#x22; type=&#x22;text&#x22;&#x3E;
+                            &#x3C;/div&#x3E;
+                        &#x3C;/div&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;columns&#x22;&#x3E;
+                        &#x3C;div class=&#x22;column&#x22;&#x3E;
+                            &#x3C;div class=&#x22;control&#x22;&#x3E;
+                                &#x3C;textarea class=&#x22;textarea is-grow&#x22; rows=&#x22;5&#x22; placeholder=&#x22;Enter a project description ...&#x22;&#x3E;&#x3C;/textarea&#x3E;
+                            &#x3C;/div&#x3E;
+                        &#x3C;/div&#x3E;   
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;mt-10&#x22;&#x3E;  
+                        &#x3C;button class=&#x22;button btn-align no-lh raised accent-btn modal-dismiss&#x22;&#x3E;Create&#x3C;/button&#x3E;
+                        &#x3C;button class=&#x22;button is-link no-lh modal-dismiss&#x22;&#x3E;Cancel&#x3C;/button&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/form&#x3E; 
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;button class=&#x22;modal-close is-large is-hidden&#x22; aria-label=&#x22;close&#x22;&#x3E;&#x3C;/button&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;!-- /Modal Markup --&#x3E;
+                                        </code></pre>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Code section -->
+            </div>
+        </section>
+
+        
+        <!-- Vertical form modal -->
+        <div id="vertical-form-modal" class="modal modal-sm">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="flex-card simple-shadow">
+                    <div class="card-body">
+                        <h2 class="title has-text-centered is-3 mb-40">Login</h2>
+                        <div class="control-material is-accent">      
+                            <input class="material-input" type="text" required>
+                            <span class="material-highlight"></span>
+                            <span class="bar"></span>
+                            <label>Name *</label>
+                        </div>
+                        <div class="control-material is-accent">      
+                            <input class="material-input" type="text" required>
+                            <span class="material-highlight"></span>
+                            <span class="bar"></span>
+                            <label>Password *</label>
+                        </div>
+                        <p class="has-text-left mt-30">
+                            <a class="no-account is-accent" href="#">Dont have an account?</a>
+                        </p>
+                        <div class="mt-20">
+                            <button class="button button-cta btn-align accent-btn raised is-fullwidth no-lh">Login</button>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <button class="modal-close is-large is-hidden" aria-label="close"></button>
+        </div>
+        <!-- /Vertical form modal -->
+
+        <!-- Horizontal form modal -->
+        <div id="horizontal-form-modal" class="modal modal-lg">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="flex-card simple-shadow">
+                    <div class="card-body">
+                        <h2 class="title is-4 text-bold mb-20">Create project</h2>
+                        <form>
+                            <div class="columns mt-50">
+                                <div class="column">
+                                    <div class="control">
+                                        <label>Project ID</label>
+                                        <input class="input is-medium mt-5" type="text">
+                                    </div>
+                                    <div class="control">
+                                        <label>Project category</label>
+                                        <div class="mt-5"></div>
+                                        <select class="chosen-select" data-placeholder="Project category">
+                                            <option label="Project category"></option>
+                                            <option>Marketing</option>
+                                            <option>Sales</option>
+                                            <option>Support</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="control">
+                                        <label>Project name</label>
+                                        <input class="input is-medium mt-5" type="text">
+                                    </div>
+                                    <div class="control">
+                                        <label>Project type</label>
+                                        <div class="mt-5"></div>
+                                        <select class="chosen-select" data-placeholder="Project type">
+                                            <option label="Project type"></option>
+                                            <option>Kanban</option>
+                                            <option>Scrum</option>
+                                            <option>List</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="columns">
+                                <div class="column">
+                                    <div class="control">
+                                        <textarea class="textarea is-grow" rows="5" placeholder="Enter a project description ..."></textarea>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="mt-30">  
+                                <button class="button btn-align no-lh raised accent-btn modal-dismiss">Create</button>
+                                <button class="button is-link no-lh modal-dismiss">Cancel</button>
+                            </div>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+            <button class="modal-close is-large is-hidden" aria-label="close"></button>
+        </div>
+        <!-- /Horizontal form modal -->
+        
+        <!-- /MODALS -->
+
+
+        <!-- Core js -->
+        <script src="assets/js/core/jquery.min.js"></script>
+        <script src="assets/js/core/modernizr.min.js"></script>
+        <!-- Plugins js -->
+        <script src="assets/js/scrollspy/scrollspy.min.js"></script>
+        <script src="assets/js/waypoints/jquery.waypoints.min.js"></script>
+        <script src="assets/js/waypoints/sticky.min.js"></script>
+        <script src="assets/js/slick-carousel/slick.min.js"></script>
+        <script src="assets/js/chosen/chosen.jquery.min.js"></script>
+        <script src="assets/js/vivus/vivus.min.js"></script>
+        <script src="assets/js/ggpopover/ggtooltip.js"></script>
+        <script src="assets/js/highlightjs/highlight.pack.js"></script>
+        <!-- Bulkit js -->
+        <script src="assets/js/main.js"></script>
+        <!-- Page specific js -->
+        <script src="assets/js/pages/demo.js"></script>
+        <script src="assets/js/pages/components-modals.js"></script>
+
+    </body>
+</html>

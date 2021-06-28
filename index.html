@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+.title-divider{
+  background: red !important;
+}
+h5{
+    font-size: 50px !important;
+    color: black;
+}
+.font{
+    font-size: 25px; 
+}
+.huruf{
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+#backtotop.visible a:hover{
+    background: red !important;
+}
+span{
+    justify-content: center !important;
+}
+#fnav{
+    font-size: 15px !important;
+    font-style: bold !important;
+}
+.rata{
+    text-align: justify;
+}
+
+/**login Style**/
+.email::placeholder{
+	color: black !important;
+}
+.button.secondary-btn.btn-outlined{
+    border-color: red !important;
+    color: red !important;
+    background-color: transparent !important;
+}
+.button.secondary-btn.btn-outlined:hover{
+    border-color: red !important;
+    color: #FFF !important;
+    background-color: red !important;
+}
+footer.footer-dark .footer-column .level-item .icon {
+    color: #FFF!important;
+}
+.modal.is-active .modal-background {
+    background: url(shopping.jpg) !important;
+}
+label:hover{
+    color: red !important;
+}
+.control-material.is-accent .bar:before, .control-material.is-accent .bar:after {
+    background: red !important;
+}
+.akun.is-accent, .no-account.is-accent, .return.is-accent {
+    color: red !important;
+}
+.button.accent-btn{
+    border-color: black !important;
+    background-color: blue !important;
+}
+.button.accent-btn:hover{
+    border-color: red !important;
+    background-color: red !important;
+}
+.control-material input.material-input, .control-material textarea{
+    border-bottom: transparent !important;
+}
+/** /login Style**/
+
+/**Daftar Baru Style**/
+body{
+        margin: 0;
+        padding: 0;
+        background: #efefef;
+        font-size: 16px;
+        color: #777;
+        font-family: sans-serif;
+        font-weight: 300;
+    }
+    #login-box{
+        position: relative;
+        margin: 5% auto;
+        height: 400px;
+        width: 600px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+    #logins-box{
+        position: relative;
+        margin: 5% auto;
+        height: 400px;
+        width: 600px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+    .left-box{
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        padding: 40px;
+        width: 300px;
+        height: 400px;
+    }
+    h1{
+        margin: 0 0 20px 0;
+        font-weight: 300;
+        font-size: 28px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"]{
+        display: block;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        padding: 4px;
+        width: 220px;
+        height: 32px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #aaa;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        transition: 0.2s ease;
+    }
+    input[type="submit"]{
+        margin-bottom: 28px;
+        width: 120px;
+        height: 32px;
+        background: #f44336;
+        border: none;
+        border-radius: 2px;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: 0,2s ease;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover,input[type="submit"]:focus{
+        background: #ff5722;
+        transition: 0.2s ease;
+    }
+    .or{
+        position: absolute;
+        top: 180px;
+        left: 280px;
+        width: 40px;
+        height: 40px;
+        background: #efefef;
+        border-radius: 50%;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+        line-height: 40px;
+        text-align: center;
+    }
+    .right-box{
+        position: absolute;
+        top: 0;
+        right: 0;
+        box-sizing: border-box;
+        padding: 40px;
+        width: 300px;
+        height: 400px;
+        background-image: url(shopingvegetable-min.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .right-box .signinwith{
+        display: block;
+        margin-bottom: 40px;
+        font-size: 28px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+    .rights-box{
+        position: absolute;
+        top: 0;
+        right: 0;
+        box-sizing: border-box;
+        padding: 40px;
+        width: 300px;
+        height: 400px;
+        background-image: url(fruit-min.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .rights-box .signinwith{
+        display: block;
+        margin-bottom: 40px;
+        font-size: 28px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+    button.social{
+        margin-bottom: 20px;
+        width: 220px;
+        height: 36px;
+        border: none;
+        border-radius: 2px;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: 500;
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+    .facebook{
+        background: #32508e;
+    }
+    .Google{
+        background: #dd4b39;
+    }
+    .twitter{
+        background: #55acee;
+    }
+    .flexcard{
+        background-color: transparent !important;
+        border: transparent !important;
+    }
+    .modal-close{
+        background-color: red !important;
+    }
+    .modal-close:hover{
+        background-color: red !important;
+    }
+    @media screen and (max-width: 780px) {
+        right-box{
+            width: auto;
+            float: none;
+        }
+        rights-box{
+            width: auto;
+            float: none;
+        }
+        left-box{
+            width: auto;
+            float: none;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"]{
+            display: block;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            padding: 4px;
+            width: 260px;
+            height: 52px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #aaa;
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            transition: 0.2s ease;
+        }
+    #login-box{
+        position: relative;
+        margin: 5% auto;
+        height: 400px;
+        width: 340px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+    #logins-box{
+        position: relative;
+        margin: 5% auto;
+        height: 600px;
+        width: 340px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+}
+/** /Daftar Baru Style**/
+    /** Tambahan **/
+    .is-drop .dropContain .dropOut {
+        margin-left: 50px !important;
+    }
+    /** /Tambahan **/
+
+</style>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DELIV</title>
+        <link rel="icon" type="image/png" href="logo.jpg">
+        <!-- Core css -->
+        <link rel="stylesheet" id="bulma" href="assets/css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/core_flashy.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/core_demo.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Plugins css -->
+        <link rel="stylesheet" type="text/css" href="assets/js/slick-carousel/slick.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/slick-carousel/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/ggpopover/ggtooltip.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/wallop/wallop.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/wallop/wallop--scale.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/highlightjs/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/js/chosen/chosen.css">
+        <!-- Icons -->
+        <link rel="stylesheet" type="text/css" href="assets/css/icons.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+
+    <body>
+        <!-- Pageloader -->
+        <div class="pageloader" <!--style="background:red !important;"-->></div>
+        <!-- <div class="infraloader is-active"></div> -->
+
+        <!-- Hero and nav -->
+        <div class="hero is-cover is-relative is-fullheight is-default is-bold">
+            <div class="navbar-wrapper navbar-fade navbar-light">
+                <div class="hero-head">
+                    <!-- Nav -->
+                    <div class="container">
+                        <nav class="nav">
+                            <div class="container big">
+                                <div class="nav-left" style="overflow-x: hidden !important;">
+                                    <a class="nav-item" href="http://deliv.co.id/">
+                                        <img class="light-logo" src="assets/images/logos/bulkit-w.png" alt="">
+                                    </a>
+                                    <!-- Sidebar trigger -->
+                                    
+                                    <a id="fnav" href="index.html" class="nav-item is-tab nav-inner is-not-mobile">
+                                        Home
+                                    </a>
+                                    <a id="fnav" href="#services" class="nav-item is-tab nav-inner is-not-mobile">
+                                        Profil
+                                    </a>
+                                    <a id="fnav" href="#testimoni" class="nav-item is-tab nav-inner is-not-mobile">
+                                        Testimoni
+                                    </a>
+                                    <a id="fnav" href="#use" class="nav-item is-tab nav-inner is-not-mobile">
+                                        Tutorial
+                                    </a>
+                                    <a id="fnav" href="#register" class="nav-item is-tab nav-inner is-not-mobile">
+                                        Daftar
+                                    </a>
+                                </div>
+                                <!-- Responsive toggle -->
+                                <span class="nav-toggle">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                                <div class="nav-right nav-menu">
+
+                                    <a id="fnav" href="index.html" class="nav-item is-tab nav-inner is-menu-mobile">
+                                        Home
+                                    </a>
+                                    <a id="fnav" href="#services" class="nav-item is-tab nav-inner is-menu-mobile">
+                                        Profil
+                                    </a>
+                                    <a id="fnav" href="#testimoni" class="nav-item is-tab nav-inner is-menu-mobile">
+                                        Testimoni
+                                    </a>
+                                    <a id="fnav" href="#use" class="nav-item is-tab nav-inner is-menu-mobile">
+                                        Tutorial
+                                    </a>
+                                    <a id="fnav" href="https://play.google.com/store/apps/details?id=co.id.deliv.deliv" class="nav-item is-tab nav-inner is-menu-mobile">
+                                        Daftar
+                                    </a>
+                                    <!--<span class="nav-item">
+                                        <div id="#signup-btn" class="button button-signup btn-outlined is-bold btn-align light-btn centered rounded is-drop">
+                                            <i class="fas fa-users"></i>
+                                            <div class="dropContain">
+                                                <div class="dropOut">
+                                                    <ul>
+                                                        <li>
+                                                            <a class="button button-cta btn-align light-btn raised modal-trigger" data-modal="horizontall-form-modal" style="width: 100% !important; margin-left:-10px!important;">
+                                                                <i class="fas fa-sign-in-alt" style="margin-right: 5px!important;"></i>
+                                                                Login
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="button button-cta btn-align light-btn raised modal-trigger" data-modal="horizontal-form-modal" style="width: 100% !important; margin-left:-10px!important;">
+                                                                <i class="fas fa-user-plus" style="margin-right: 5px!important;"></i>
+                                                                Daftar Baru
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </span>-->
+                                    <span class="nav-item">
+                                        <div id="#signup-btn" href="" class="button button-signup btn-outlined is-bold btn-align light-btn centered is-drop">
+                                            Layanan Rutan Bangil 
+                                            <div class="dropContain">
+                                              <div class="dropOut">
+                                                <ul>
+                                                  <li>
+                                                    <a href="">
+                                                      <i class="drop-icon fas fa-fish" style="margin-right: 5px!important;"></i>
+                                                      Pelayanan Kunjungan
+                                                    </a>
+                                                  </li>
+                                                  <li>
+                                                    <a href="">
+                                                      <i class="drop-icon fas fa-motorcycle" style="margin-right: 5px!important;"></i>
+                                                      Sitamuku
+                                                    </a>
+                                                  </li>
+                                                  <li>
+                                                    <a href="">
+                                                      <i class="drop-icon fas fa-car" style="margin-right: 5px!important;"></i>
+                                                      Mitra De-Car
+                                                    </a>
+                                                  </li>
+                                                  <li>
+                                                    <a href="#join">
+                                                      <i class="drop-icon fas fa-shopping-bag" style="margin-right: 5px!important;"></i>
+                                                      Mitra De-Shop
+                                                    </a>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- /Nav -->
+                </div>
+            </div>
+
+            <!-- Hero Wallop Slider -->
+            <div class="Wallop Wallop--scale">
+                <div class="Wallop-list">
+                    <!-- Slide -->
+                    <div class="Wallop-item Wallop-item--current has-background-image" data-background="shopingmarket-min.jpg">
+                        <div class="Wallop-overlay"></div>
+                        <div class="Wallop-caption-wrapper"style="padding-top: 100px;">
+                            <div class="Wallop-caption is-centered">
+                                <div class="main-inner">
+                                    <h1>RUMAH TAHANAN KELAS IIB BANGIL</h1>
+                                </div>
+                                <div>
+                                    <h4>Belanja dijamin lebih mudah bersama kami<br>Tidak perlu keluar rumah,cukup kurir kami yang berbelanja</h4>
+                                </div>
+                                <div class="action">
+                                    <a href="#services" class="button button-cta btn-align light-btn btn-outlined is-bold raised rounded mt-50">Coba Sekarang</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="Wallop-item has-background-image" data-background="shopping-min.jpg">
+                        <div class="Wallop-overlay"></div>
+                        <div class="Wallop-caption-wrapper"style="padding-top: 100px;">
+                            <div class="Wallop-caption is-centered">
+                                <div class="main-inner">
+                                    <h1>VISI RUTAN BANGIL</h1>
+                                </div>
+                                <div>
+                                    <h4>Mewujudkan pelayanan prima<br>dan mendukung masyarakat memperoleh kepastian hukum</h4>
+                                </div>
+                                <div class="action">
+                                    <a href="#services" class="button button-cta btn-align light-btn btn-outlined is-bold raised rounded mt-50">Coba Sekarang</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="Wallop-item has-background-image" data-background="shopingvegetable-min.jpg">
+                        <div class="Wallop-overlay"></div>
+                        <div class="Wallop-caption-wrapper"style="padding-top: 100px;">
+                            <div class="Wallop-caption is-centered">
+                                <div class="main-inner">
+                                    <h1>MISI RUTAN BANGIL</h1>
+                                </div>
+                                <div>
+                                    <h4>Rutan terpercaya dalam memberikan pelayanan, pembinaan, perawatan, serta pengamanan<br>bagi Warga Binaan Pemasyarakatan</h4>
+                                </div>
+                                <div class="action">
+                                    <a href="#services" class="button button-cta btn-align light-btn btn-outlined is-bold raised rounded mt-50">Coba Sekarang</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination dots -->
+                <div class="Wallop-pagination">
+                    <button class="Wallop-dot Wallop-dot--current">go to item 1</button>
+                    <button class="Wallop-dot">go to item 2</button>
+                    <button class="Wallop-dot">go to item 3</button>      
+                </div>
+                <!-- Navigation arrows -->
+                <button class="Wallop-buttonPrevious is-hidden-mobile"><i class="material-icons">arrow_back</i></button>
+                <button class="Wallop-buttonNext is-hidden-mobile"><i class="material-icons">arrow_forward</i></button>
+            </div>
+            <!-- /Hero Wallop Slider -->
+        </div>
+        <!-- /Hero and nav -->
+
+        <!-- About section -->
+        <section id="services" class="section is-medium">
+            <div class="container">
+                <div class="centered-title">
+                    <h2>Profil Rutan Kelas IIB Bangil</h2>
+                    <div class="title-divider is-centered"></div>
+                    <!--<div class="subheading">
+                        Mudah, Murah dan Nyaman
+                    </div>-->
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="columns">
+                        <!-- Content -->
+                        <div class="column is-4">
+                            <div class="title quick-feature is-handwritten text-bold">
+                                <h2>Rumah Tahanan Kelas IIB Bangil</h2>
+                            </div>
+                            <div class="title-divider"></div>
+                            <p class="rata">Rumah tahanan negara kelas iib bangil merupakan satu-satunya rumah tahanan yang ada di kecamatan bangil dan beralamat di jalan mangga No.2 kelurahan kiduldalem, Kecamatan Bangil, Kabupaten Pasuruan. Rumah tahanan negara kelas iib bangil dibangun diatas tanah dengan luas tanah 4424m serta luas bangunan mencapai 2287m. </p><br>
+							<p class="rata">Rutan Kelas IIB Bangil memiliki total pegawai 57 orang dengan 53 pria dan 4 wanita. </p>
+							<p class="rata">Rutan Kelas IIB Bangil memiliki kapasitas tahanan sebanyak 200 orang, sedangkan sekarang total tahanan di rutan bangil terdiri dari 620 lebih dan tentunya jumlah tersebut melebihi kapasitas.</p>
+                            <div class="action">
+                                <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold mt-20">Baca Selengkapnya</a>
+                            </div>
+                            
+                        </div>
+                        <!-- Icons -->
+                        <div class="column is-7 is-offset-1">
+                            <div class="columns is-vcentered is-multiline">
+                              <video class="convervid-video" width="600px" height="600px"controls poster="https://www.instagram.com/tv/CQdE-MLgxEp/?utm_medium=copy_link">
+                                <source src="kartun.mp4" type="video/mp4">
+                              </video>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /About section -->
+
+<section id="testimoni" class="section is-medium section-feature-grey">
+            <div class="container">
+                <div class="centered-title">
+                    <h2> Apa kata mereka? </h2>
+                    <div class="title-divider is-centered"></div>
+                    <h4 class="subtitle is-5 pt-10">Semenjak menjadi bagian dari mitra kami</h4><br>
+                </div>
+                <div class="column is-10 is-offset-1">
+                    <div class="navigation-tabs full-pills primary animated-tabs">
+                        <div class="tabs is-centered">
+                            <ul>
+                                <li class="tab-link is-active" data-tab="tab-g1"><a>Adam Bradley</a></li>
+                                <li class="tab-link" data-tab="tab-g2"><a>Evelyn Dwyers</a></li>
+                                <li class="tab-link" data-tab="tab-g3"><a>Joel Zimmerman</a></li>
+                            </ul>
+
+                        </div>
+                        <div id="tab-g1" class="navtab-content is-active">
+                            <div class="flat-testimonial-item accent">
+                                <div class="columns is-vcentered">
+                                    <div class="column is-7">
+                                        <video class="convervid-video" width="600px" height="600px"controls poster="https://www.youtube.com/watch?v=N73mC-dISIo">
+                                            <source src="kartun.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                    <div class="column is-5">
+                                        <div class="testimonial-text">
+                                            <i class="fa fa-quote-left fa-3x"></i>
+                                            <p class="quoted-text"><br>Semenjak bergabung dengan DE-SHOP, penghasilan saya semakin meningkat </p><br>
+                                            <p class="client-name">Adam Bradley</p>
+                                            <p class="client-position">Pemilik Toko Jaya Store</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-g2" class="navtab-content">
+                            <div class="flat-testimonial-item accent">
+                                <div class="columns is-vcentered">
+                                    <div class="column is-7">
+                                        <video class="convervid-video" width="600px" height="600px"controls poster="https://www.youtube.com/watch?v=N73mC-dISIo">
+                                            <source src="kartun.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                    <div class="column is-5">
+                                        <div class="testimonial-text">
+                                            <i class="fa fa-quote-left fa-3x"></i>
+                                            <p class="quoted-text"><br>Semenjak bergabung menjadi mitra DE-SHOP penghasilan saya semakin lama semakin meningkat dan sekarang saya bisa memenuhi kebutuhan sehari-hari</p><br>
+                                            <p class="client-name">Evelyn Dwyers</p>
+                                            <p class="client-position">Pemilik Toko Fruit Store</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-g3" class="navtab-content">
+                            <div class="flat-testimonial-item accent">
+                                <div class="columns is-vcentered">
+                                    <div class="column is-7">
+                                        <video class="convervid-video" width="600px" height="600px"controls poster="https://www.youtube.com/watch?v=N73mC-dISIo">
+                                            <source src="kartun.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                    <div class="column is-5">
+                                        <div class="testimonial-text">
+                                            <i class="fa fa-quote-left fa-3x"></i>
+                                            <p class="quoted-text"><br>Menjadi mitra de-shop sangat menguntungkan bagi kami pemilik toko karena diberi kemudahan dalam menjual barang</p><br>
+                                            <p class="client-name">Joel Zimmerman</p>
+                                            <p class="client-position">Pemilik Toko Vegetables Store</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Testimoni-->
+        <section id="card-testimonials" class="section is-small is-relative is-small">
+            <div class="container">
+                <div class="centered-title">
+                    <h2>Apa kata mereka?</h2>
+                    <div class="title-divider is-centered"></div>
+                    <div class="subheading">
+                        Sebagai pengguna deliv
+                    </div>
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="columns is-vcentered">
+                        <div class="column is-hidden-mobile"></div>
+                        <div class="column is-10">
+                            <div class="columns is-vcentered">
+                                <div class="column is-6">
+                                    <!-- Testimonial -->
+                                    <div class="flex-card testimonial-card light-raised padding-20">
+                                        <div class="testimonial-title">
+                                            Amazed by the product
+                                        </div>
+                                        <img class="" src="testi.jpg"width="100%">
+                                    </div>
+                                    <!-- Testimonial -->
+                                    <div class="flex-card testimonial-card light-raised padding-20">
+                                        <div class="testimonial-title">
+                                            My tasks are now painless
+                                        </div>
+                                        <img class="" src="testi2.jpg"width="100%">
+                                    </div>
+                                </div>
+                                <div class="column is-6">
+                                    <!-- Testimonial -->
+                                    <div class="flex-card testimonial-card light-raised padding-20">
+                                        <div class="testimonial-title">
+                                            Very nice support
+                                        </div>
+                                        <img class="" src="testi3.jpg"width="100%">
+                                    </div>
+                                    <!-- Testimonial -->
+                                    <div class="flex-card testimonial-card light-raised padding-20">
+                                        <div class="testimonial-title">
+                                            My income has doubled
+                                        </div>
+                                        <img class=""src="testi4.jpg"width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-hidden-mobile"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/Testimoni-->
+
+        <!-- Portfolio -->
+        <section  id="use" class="section section-feature-grey is-medium no-padding-bottom">
+            <div class="container">
+
+                <div class="centered-title">
+                    <h2>ALUR LAYANAN KUNJUNGAN RUTAN KELAS IIB BANGIL</h2>
+                    <div class="title-divider is-centered background-#DC143C"></div>
+                    <div class="subheading">
+                        
+                    </div>
+                </div>
+                <div class="content-wrapper">
+                    <div class="columns">
+                        <div class="column is-10 is-12">
+                            <!-- Carousel -->
+                            <div class="people-carousel">
+                                <!-- Carousel item -->
+                                <div class="people-carousel-item">
+                                    <div class="item-wrapper">
+                                        <div class="image-column is-hidden-mobile">
+                                            <div class="carousel-img">
+                                                <img src="login.jpg" width="227px" height="313px" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content-column">
+                                            <h2 class="testimonial-title">
+                                                Akses Halaman Pendaftaran
+                                                <i class="fa fa-quote-right"></i>
+                                            </h2>
+                                            <div class="title-divider"></div>
+                                            <div class="testimonial-content">
+                                                <p class="rata">Kunjungi halaman pendaftaran layanan rutan bangil pada link bit.ly/layananrutanbangil</p>
+                                            </div>
+                                            <div class="customer-info">
+                                                <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold">Learn more</a>
+                                            </div>
+                                            <div class="mobile-spacer is-hidden-desktop is-hidden-tablet"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Carousel item -->
+                                <div class="people-carousel-item">
+                                    <div class="item-wrapper">
+                                        <div class="image-column is-hidden-mobile">
+                                            <div class="carousel-img">
+                                                <img src="menu.jpg" width="227px" height="313px" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content-column">
+                                            <h2 class="testimonial-title">
+                                                Formulir Pendaftaran
+                                                <i class="fa fa-quote-right"></i>
+                                            </h2>
+                                            <div class="title-divider"></div>
+                                            <div class="testimonial-content">
+                                                <p class="rata">Pada tampilan formulir, isikan seluruh data pada formulir dengan benar</p>
+                                            </div>
+                                            <div class="customer-info">
+                                                <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold">Learn more</a>
+                                            </div>
+                                            <div class="mobile-spacer is-hidden-desktop is-hidden-tablet"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Carousel item -->
+                                <div class="people-carousel-item">
+                                    <div class="item-wrapper">
+                                        <div class="image-column is-hidden-mobile">
+                                            <div class="carousel-img">
+                                                <img src="lokasi.jpg" width="227px" height="313px" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content-column">
+                                            <h2 class="testimonial-title">
+                                                Kirim Formulir Pendaftaran
+                                                <i class="fa fa-quote-right"></i>
+                                            </h2>
+                                            <div class="title-divider"></div>
+                                            <div class="testimonial-content">
+                                                <p class="rata">Kirimkan formulir apabila anda telah yakin bahwa data yang anda isi telah benar</p>
+                                            </div>
+                                            <div class="customer-info">
+                                                <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold">Mulai Belanja</a>
+                                            </div>
+                                            <div class="mobile-spacer is-hidden-desktop is-hidden-tablet"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Carousel -->
+							<!-- Carousel item -->
+                                <div class="people-carousel-item">
+                                    <div class="item-wrapper">
+                                        <div class="image-column is-hidden-mobile">
+                                            <div class="carousel-img">
+                                                <img src="lokasi.jpg" width="227px" height="313px" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content-column">
+                                            <h2 class="testimonial-title">
+                                                Email Rutan Bangil
+                                                <i class="fa fa-quote-right"></i>
+                                            </h2>
+                                            <div class="title-divider"></div>
+                                            <div class="testimonial-content">
+                                                <p class="rata">Periksa kotak masuk email yang telah anda masukkan untuk memastikan telah mendapat bukti pendaftaran dan nomor antrian dari Layanan Rutan Bangil</p>
+                                            </div>
+                                            <div class="customer-info">
+                                                <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold">Mulai Belanja</a>
+                                            </div>
+                                            <div class="mobile-spacer is-hidden-desktop is-hidden-tablet"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Carousel -->
+							<!-- Carousel item -->
+                                <div class="people-carousel-item">
+                                    <div class="item-wrapper">
+                                        <div class="image-column is-hidden-mobile">
+                                            <div class="carousel-img">
+                                                <img src="lokasi.jpg" width="227px" height="313px" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content-column">
+                                            <h2 class="testimonial-title">
+                                                Bukti Pendaftaran
+                                                <i class="fa fa-quote-right"></i>
+                                            </h2>
+                                            <div class="title-divider"></div>
+                                            <div class="testimonial-content">
+                                                <p class="rata">Simpan formulir bukti pendaftaran dan tunjukkan pada petugas pendaftaran kunjungan</p>
+                                            </div>
+                                            <div class="customer-info">
+                                                <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold">Mulai Belanja</a>
+                                            </div>
+                                            <div class="mobile-spacer is-hidden-desktop is-hidden-tablet"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Carousel -->
+							<!-- Carousel item -->
+                                <div class="people-carousel-item">
+                                    <div class="item-wrapper">
+                                        <div class="image-column is-hidden-mobile">
+                                            <div class="carousel-img">
+                                                <img src="lokasi.jpg" width="227px" height="313px" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content-column">
+                                            <h2 class="testimonial-title">
+                                                Verifikasi Data
+                                                <i class="fa fa-quote-right"></i>
+                                            </h2>
+                                            <div class="title-divider"></div>
+                                            <div class="testimonial-content">
+                                                <p class="rata">Tunggu petugas selesai untuk melakukan verifikasi data yang telah anda masukkan</p>
+                                            </div>
+                                            <div class="customer-info">
+                                                <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold">Mulai Belanja</a>
+                                            </div>
+                                            <div class="mobile-spacer is-hidden-desktop is-hidden-tablet"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Carousel -->
+							<!-- Carousel item -->
+                                <div class="people-carousel-item">
+                                    <div class="item-wrapper">
+                                        <div class="image-column is-hidden-mobile">
+                                            <div class="carousel-img">
+                                                <img src="lokasi.jpg" width="227px" height="313px" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content-column">
+                                            <h2 class="testimonial-title">
+                                                Pemeriksaan Barang Kiriman
+                                                <i class="fa fa-quote-right"></i>
+                                            </h2>
+                                            <div class="title-divider"></div>
+                                            <div class="testimonial-content">
+                                                <p class="rata">Setelah data diverifikasi, barang dapat langsung memasuki pos wasrik untuk dilakukan pemeriksaan</p>
+                                            </div>
+                                            <div class="customer-info">
+                                                <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold">Mulai Belanja</a>
+                                            </div>
+                                            <div class="mobile-spacer is-hidden-desktop is-hidden-tablet"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Carousel -->
+							<!-- Carousel item -->
+                                <div class="people-carousel-item">
+                                    <div class="item-wrapper">
+                                        <div class="image-column is-hidden-mobile">
+                                            <div class="carousel-img">
+                                                <img src="lokasi.jpg" width="227px" height="313px" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content-column">
+                                            <h2 class="testimonial-title">
+                                                Layanan SITAMUKU
+                                                <i class="fa fa-quote-right"></i>
+                                            </h2>
+                                            <div class="title-divider"></div>
+                                            <div class="testimonial-content">
+                                                <p class="rata">Barang yang berhasil masuk akan lanjut dikirimkan kepada WBP dan pengunjung lajut menuju layanan SITAMUKU</p>
+                                            </div>
+                                            <div class="customer-info">
+                                                <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold">Mulai Belanja</a>
+                                            </div>
+                                            <div class="mobile-spacer is-hidden-desktop is-hidden-tablet"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Carousel -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Portfolio -->
+
+        <!-- Team section -->
+        <section id="join" class="section section-feature-grey is-medium">
+            <div class="container">
+                <div class="centered-title">
+                    <h2>Join with US</h2>
+                    <div class="title-divider is-centered"></div>
+                </div>
+
+                <div class="content-wrapper">
+                  <div class="columns is-vcentered pb-40 pt-40">
+                        <div class="column is-4 is-offset-1">
+                          <div class="title quick-feature is-handwritten text-bold">
+                            <div>Join with us</div>
+                          </div>
+                          <div class="title-divider is-small"></div>
+                          <span class="section-feature-description">Bergabunglah bersama kami sebagai mitra kerja kami. Ada berbagai macam keuntungan yang akan kalian dapatkan dengan bermitra bersama kami</span>
+                          <div class="pt-10 pb-10">
+                            <a class="button btn-align button-cta btn-outlined raised rounded danger-btn is-bold" href="">Bergabung</a>
+                          </div>
+                        </div>
+                        <div class="column is-6 is-offset-1">
+                          <img class="" src="shopingmarket-min.jpg" alt="">
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Team section -->
+
+<section id="register" class="section section-primary is-medium is-skewed-sm is-relative">
+            <div class="container slanted-container is-reverse-skewed-sm pt-40 pb-40">
+                <div class="columns is-vcentered">
+                    <!-- Content -->
+                    <div class="column is-5 ">
+                        <div class="content padding-20">
+                            <h2 class="title is-3 clean-text light-text no-margin-bottom">Pendaftaran Online Layanan Kunjungan</h2>
+                            <p class="light-text no-margin-bottom pt-10 pb-10" style="font-size: 19px;">Pendaftaran online merupakan inovasi baru di layanan kunjungan rutan kelas iib bangil. Inovasi ini sedang dalam proses pengerjaan untuk memastikan website berjalan lancar.</p>
+                            <div class="pt-10 pb-10">
+                                <a href="https://play.google.com/store/apps/details?id=co.id.deliv.deliv" class="button button-cta light-btn btn-outlined is-bold">
+                                    Daftar Online Layanan Kunjungan
+                                </a>
+                            </div> 
+							<div class="pt-10 pb-10">
+                                <a href="https://play.google.com/store/apps/details?id=co.id.deliv.deliv" class="button button-cta light-btn btn-outlined is-bold">
+                                    Layanan Sitamuku Rutan Kelas IIB Bangil.
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Featured image -->
+                    <div class="column is-6 is-offset-1">
+                        <img class="featured-svg" src="promo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Counters section -->
+<section class="section is-small">      
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="centered-title">
+                    <h2>Frequently Asked Question</h2>
+                    <div class="title-divider is-centered"></div>
+                </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="single-toggle-wrapper">
+                    <div class="toggle-wrap">
+                        <span class="trigger"><a class="huruf" href="#">Apa itu De-Shop? </a></span>
+                        <div class="toggle-container">
+                            <p class="no-padding mt-10">
+                                De-Shop adalah layanan baru dari Deliv yang siap mengantarkan belanjaan dari supermarket favorit anda.
+                            </p>
+                            <p class="no-padding mt-10">
+                                Dengan De-Shop, anda bisa menelusuri daftar produk belanjaan berdasarkan katalog dari supermarket sesuai pilihan dan memesannya dimana saja.
+                            </p>
+                            <p class="no-padding mt-10">
+                                Semua belanjaan yang anda inginkan akan dipilih langsung oleh pembeli pribadi/kurir de-shop yang terlatih dan profesional
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="single-toggle-wrapper">
+                    <div class="toggle-wrap">
+                        <span class="trigger"><a class="huruf" href="#">Apa saja yang bisa saya pesan di De-Shop? </a></span>
+                        <div class="toggle-container">
+                            <p class="no-padding mt-10">
+                                Anda dapat memesan berbagai macam belanjaan yang biasa ditemukan di supermarket atau swalayan, seperti telur,susu,sayur,buah-buahan,daging,ikan,susu dan lainnya.
+                            </p>
+                            <p class="no-padding mt-10">
+                                Store yang kami dukung meliputi A Market, B Market, C Market dan D Market.
+                            </p>
+                            <p class="no-padding mt-10">
+                                Untuk sementara kami hanya menawarkan 20.000 jenis barang untuk memenuhi kebutuhan bahan makanan anda.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="single-toggle-wrapper">
+                    <div class="toggle-wrap">
+                        <span class="trigger"><a class="huruf" href="#" >Bagaimana cara membuat pesanan di De-Shop? </a></span>
+                        <div class="toggle-container">
+                            <p class="no-padding mt-10">
+                                1. Masuk aplikasi Deliv menggunakan nomor hp/email yang telah terdaftar
+                            </p>
+                            <p class="no-padding mt-10">
+                                2. Pada bagian menu pilih menu De-shop
+                            </p>
+                            <p class="no-padding mt-10">
+                                3. Piih store yang di inginkan dan masukkan alamat anda untuk dikirimnya belanjaan
+                            </p>
+                            <p class="no-padding mt-10">
+                                4. Pilih belanjaan apa saja yang ingin anda beli. Pastikan tekan add to chart untuk barang yang dipilih
+                            </p>
+                            <p class="no-padding mt-10">
+                                5. Periksa barang belanjaan lalu tekan checkout
+                            </p>
+                            <p class="no-padding mt-10">
+                                6. Pilih metode pembayaran 
+                            </p>
+                            <p class="no-padding mt-10">
+                                7. Tunggu kurir datang kealamat anda
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="single-toggle-wrapper">
+                    <div class="toggle-wrap">
+                        <span class="trigger"><a class="huruf" href="#">Bagaimana cara mengetahui status pemesanan? </a></span>
+                        <div class="toggle-container">
+                            <p class="no-padding mt-10">
+                                Anda akan mendapat notifikasi melalui notif apps ketika pesanan anda sedang dikemas,proses pengantaran dan ketika sudah sampai alamat anda. Notifikasi pada deliv ini secara real-time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="single-toggle-wrapper">
+                    <div class="toggle-wrap">
+                        <span class="trigger"><a class="huruf" href="#">Bagaimana jika stok barang yang saya pesan habis? </a></span>
+                        <div class="toggle-container">
+                            <p class="no-padding mt-10">
+                                Kami menerima pembaruan harga dan stok barang setiap hari dari partner kami.Setelah membuat pesanan, anda bisa memberitahu personal shopper jika stok barang yang anda inginkan habis.
+                            </p>
+                            <p class="no-padding mt-10">
+                                Anda bisa memilih untuk seluruh pesanan atau untuk setiap produk.
+                            </p>
+                            <p class="no-padding mt-10">
+                                "Biarkan pembeli memilih", jika anda ingin personal shopper kami memilih barang pengganti yang cocok untuk anda<br>
+                                "Hubungi saya", Jika anda ingin memilih barang pengganti melalui panggilan telepon<br>
+                                "Tidak menggantikan", Jika anda tidak menginginkan barang pengganti 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="single-toggle-wrapper">
+                    <div class="toggle-wrap">
+                        <span class="trigger"><a class="huruf" href="#">Bisakah saya membuat lebih dari 1 pesanan? </a></span>
+                        <div class="toggle-container">
+                            <p class="no-padding mt-10">
+                                Ya, anda bisa membuat banyak pesanan sekaligus selama slot waktu pengiriman tersedia untuk store yang dipilih.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="single-toggle-wrapper">
+                    <div class="toggle-wrap">
+                        <span class="trigger"><a class="huruf" href="#">Bisakah saya mengganti barang yang sudah dipesan? </a></span>
+                        <div class="toggle-container">
+                            <p class="no-padding mt-10">
+                                Untuk saat ini tidak bisa. Anda harus membatalkan seluruh pesanan dan membuat pesanan baru.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="single-toggle-wrapper">
+                    <div class="toggle-wrap">
+                        <span class="trigger"><a class="huruf" href="#">Siapa yang bisa saya hubungi jika ada keluhan atau pertanyaan lainnya? </a></span>
+                        <div class="toggle-container">
+                            <p class="no-padding mt-10">
+                                Untuk saat ini anda bisa mengajukan keluhan atau pertanyaan melalui email kami
+                            </p>
+                            <p class="no-padding mt-10">
+                                Anda juga bisa mengajukan pertanyaan melalui web resmi kami di deliv.com, disana terdapat fitur untuk mengajukan pertanyaan dan keluhan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-vcentered">
+            <div class="column is-6 is-offset-3">
+                <div class="single-toggle-wrapper">
+                    <div class="toggle-wrap">
+                        <span class="trigger"><a class="huruf" href="#">Keluhan De-Shop </a></span>
+                        <div class="toggle-container">
+                            <p class="no-padding mt-10">
+                                Hubungi kami melalui Kantor Pusat Deliv 081216613737
+                            </p>
+                            <p class="no-padding mt-10">
+                                Email kami di : <a href="mailto:deliv@deliv.com">Deliv</a>
+                            </p>
+                            <p class="no-padding mt-10">
+                                Senin s/d Jumat (09.00-21.30), Sabtu-Minggu (09.30-20.30)
+                            </p>
+                            <p class="no-padding mt-10">
+                                Happy Shopping :)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- /Counters section -->
+        
+        <!-- Login Modal -->
+        <div id="horizontall-form-modal" class="modal modal-lg">
+            <div class="modal-background"></div>
+            <div class="modal-content" style="overflow-y: hidden !important;">
+                <div class="flexcard simple-shadow">
+                    <div class="card-body">
+                        <div id="login-box">
+                            <div class="left-box">
+                                <form>
+                                <img class="logo" src="bulkit-logo-deep-blue.png" style="justify-content: center !important; width: 50% !important;">
+                                <input class="email" type="email" name="email" class="formcontrol" placeholder="ex namaanda@gmail.com" required oninvalid="this.setCustomValidity('Email tidak boleh kosong')" oninput="setCustomValidity('')">
+                                <input class="email" type="password" name="password" placeholder="Password" required oninvalid="this.setCustomValidity('Password tidak boleh kosong')" oninput="setCustomValidity('')">
+                                <input type="submit" name="signup-button" value="Masuk">
+                                </form>
+                            </div>
+                            <div class="rights-box is-hidden-mobile">
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <button class="modal-close is-large is-hidden" aria-label="close"></button>
+        </div>
+        <!-- /Login Modal -->
+
+        <!-- Daftar Baru Modal -->
+        <div id="horizontal-form-modal" class="modal modal-lg">
+            <div class="modal-background"></div>
+            <div class="modal-content" style="overflow-y: hidden !important;">
+                <div class="flexcard simple-shadow">
+                    <div class="card-body">
+                        <div id="logins-box">
+                            <div class="left-box">
+                                <form>
+                                <img class="logo" src="bulkit-logo-deep-blue.png" style="justify-content: center !important; width: 50% !important;">
+                                <input class="email" type="text" name="username" placeholder="Nama Lengkap" required oninvalid="this.setCustomValidity('Nama tidak boleh kosong')" oninput="setCustomValidity('')">
+                                <input class="email" type="email" name="email" class="formcontrol" placeholder="ex namaanda@gmail.com" required oninvalid="this.setCustomValidity('Email tidak boleh kosong')" oninput="setCustomValidity('')">
+                                <input class="email" type="tel" name="telefon" placeholder="ex +62***********"pattern="^\d{12}$" required oninvalid="this.setCustomValidity('Nomor telefon tidak boleh kosong')" oninput="setCustomValidity('')">
+                                <input class="email" type="password" name="password" placeholder="Password" required oninvalid="this.setCustomValidity('Password tidak boleh kosong')" oninput="setCustomValidity('')">
+                                <input type="submit" name="signup-button" value="Daftar">
+                            </form>
+                            </div>
+                            <div class="right-box is-hidden-mobile">
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <button class="modal-close is-large is-hidden" aria-label="close"></button>
+        </div>
+        <!-- /Daftar Baru Modal -->
+
+        <!-- Footer -->
+        <div>
+            <footer class="footer footer-dark">
+                <div class="container">
+                  <div class="columns footer-columns is-flex-mobile">
+                    <div class="column is-half-mobile">
+                      <div class="footer-column">
+                        <div class="footer-header">
+                          <h3>Product</h3>
+                        </div><ul class="link-list">
+                          <li><a href="/driver">De Ride</a></li>
+                          <li><a href="">De Car</a></li>
+                          <li><a href="">De Food</a></li>
+                          <li><a href="">De Payment</a></li>
+                          <li><a href="">De Saldo</a></li>
+                          <li><a href="">De Shop</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="column is-half-mobile">
+                      <div class="footer-column">
+                        <div class="footer-header">
+                          <h3>Company</h3>
+                        </div><ul class="link-list">
+                          <li><a href="/">Terms of service</a></li>
+                          <li><a href="/">Privacy policy</a></li>
+                        </ul>
+                      </div>
+                    </div>
+            <div class="column is-half-mobile">
+              <div class="footer-column">
+                <div class="footer-header">
+                  <h3>Learning</h3>
+                </div>
+                <ul class="link-list">
+                  <li><a href="">Resources</a></li>
+                  <li><a href="http://blog.deliv.co.id">Blog</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="column is-half-mobile">
+              <div class="footer-column">
+                
+                <div class="footer-header">
+                  <nav class="level is-mobile">
+                    <div class="level-left level-social">
+                      <a class="level-item" href="https://www.facebook.com/Deliv.Indonesia">
+                        <span class="icon"><i class="fab fa-facebook"></i></span></a>
+                        <a class="level-item" href="https://www.instagram.com/deliv.id">
+                        <span class="icon"><i class="fab fa-instagram"></i></span></a>
+                        <a class="level-item" href="https://www.linkedin.com/company/delivindonesia/about">
+                          <span class="icon"><i class="fab fa-linkedin"></i>
+                          </span>
+                        </a>
+                        <a class="level-item" href="">
+                            <span class=""><i class=""></i></span></a>
+                      </div>
+                    </nav>
+                  </div>
+                  <div class="copyright">
+                    <span class="moto light-text">Copyright © 2019 by Deliv App</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+            <!-- /Footer -->
+
+            <!-- Side navigation -->
+            <div class="side-navigation-menu">
+                <!-- Categories menu -->
+                <div class="category-menu-wrapper">
+                    <!-- Menu -->
+                    <ul class="categories">
+                        <li class="square-logo"><img src="assets/images/logos/square-white.svg" alt=""></li>
+                        <li class="category-link is-active" data-navigation-menu="demo-pages"><i class="sl sl-icon-layers"></i></li>
+                        <li class="category-link" data-navigation-menu="components"><i class="sl sl-icon-grid"></i></li>
+                        <li class="category-link" data-navigation-menu="extras"><i class="sl sl-icon-present"></i></li>
+                    </ul>
+                    <!-- Menu -->
+
+                    <ul class="author">
+                        <li>
+                            <!-- Theme author -->
+                            <a href="javascript:void(0);">
+                                <img class="main-menu-author" src="assets/images/logos/cssninja.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Categories menu -->
+
+                <!-- Navigation menu -->
+                <div id="demo-pages" class="navigation-menu-wrapper animated preFadeInRight fadeInRight">
+                    <!-- Navigation Header -->
+                    <div class="navigation-menu-header">
+                        <span>Demo pages</span>
+                        <a class="ml-auto hamburger-btn navigation-close" href="javascript:void(0);">
+                            <span class="menu-toggle">  
+                                <span class="icon-box-toggle">  
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i> 
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- Navigation Body -->
+                    <ul class="navigation-menu">
+                        <li class="has-children active-section"><a class="parent-link" href="#"><span class="material-icons">weekend</span>Agency kit</a>
+                            <ul>
+                                <li><a class="is-submenu" href="agency.html">Homepage</a></li>
+                                <li><a class="is-submenu" href="agency-about.html">About</a></li>
+                                <li><a class="is-submenu" href="agency-portfolio.html">Portfolio</a></li>
+                                <li><a class="is-submenu" href="agency-contact.html">Contact</a></li>
+                                <li><a class="is-submenu" href="agency-blog.html">Blog</a></li>
+                                <li><a class="is-submenu" href="agency-post-sidebar.html">Post sidebar</a></li>
+                                <li><a class="is-submenu" href="agency-post-nosidebar.html">Post no sidebar</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">wb_incandescent</span>Startup kit</a>
+                            <ul>
+                                <li><a class="is-submenu" href="startup.html">Homepage</a></li>
+                                <li><a class="is-submenu" href="startup-about.html">About</a></li>
+                                <li><a class="is-submenu" href="startup-product.html">Product</a></li>
+                                <li><a class="is-submenu" href="startup-contact.html">Contact</a></li>
+                                <li><a class="is-submenu" href="startup-login.html">Login</a></li>
+                                <li><a class="is-submenu" href="startup-signup.html">Sign up</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">looks</span>Landing kit v1</a>
+                            <ul>
+                                <li><a class="is-submenu" href="landing.html">Landing page</a></li>
+                                <li><a class="is-submenu" href="landing-features.html">Feature page</a></li>
+                                <li><a class="is-submenu" href="landing-pricing.html">Pricing page</a></li>
+                                <li><a class="is-submenu" href="landing-login.html">Login page</a></li>
+                                <li><a class="is-submenu" href="landing-signup.html">Signup page</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">invert_colors</span>Landing kit v2</a>
+                            <ul>
+                                <li><a class="is-submenu" href="landing-v1.html">Landing page</a></li>
+                                <li><a class="is-submenu" href="landing-v1-features.html">Feature page</a></li>
+                                <li><a class="is-submenu" href="landing-v1-pricing.html">Pricing page</a></li>
+                                <li><a class="is-submenu" href="landing-v1-login.html">Login page</a></li>
+                                <li><a class="is-submenu" href="landing-v1-signup.html">Signup page</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">chat_bubble</span>Landing kit v3</a>
+                            <ul>
+                                <li><a class="is-submenu" href="landing-v2.html">Landing page</a></li>
+                                <li><a class="is-submenu" href="landing-v2-features.html">Feature page</a></li>
+                                <li><a class="is-submenu" href="landing-v2-pricing.html">Pricing page</a></li>
+                                <li><a class="is-submenu" href="landing-v2-login.html">Login page</a></li>
+                                <li><a class="is-submenu" href="landing-v2-signup.html">Signup page</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">business</span>Landing kit v4</a>
+                            <ul>
+                                <li><a class="is-submenu" href="landing-v3.html">Landing page</a></li>
+                                <li><a class="is-submenu" href="landing-v3-pricing.html">Pricing page</a></li>
+                                <li><a class="is-submenu" href="landing-v3-help.html">Help center</a></li>
+                                <li><a class="is-submenu" href="landing-v3-help-category.html">Help category</a></li>
+                                <li><a class="is-submenu" href="landing-v3-help-article.html">Help article</a></li>
+                                <li><a class="is-submenu" href="landing-v3-signup.html">Login</a></li>
+                                <li><a class="is-submenu" href="landing-v3-login.html">Sign up</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Navigation menu -->
+
+                <!-- Navigation menu -->
+                <div id="components" class="navigation-menu-wrapper animated preFadeInRight fadeInRight is-hidden">
+                    <!-- Navigation Header -->
+                    <div class="navigation-menu-header">
+                        <span>Components</span>
+                        <a class="ml-auto hamburger-btn navigation-close" href="javascript:void(0);">
+                            <span class="menu-toggle">  
+                                <span class="icon-box-toggle">  
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i> 
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- Navigation body -->
+                    <ul class="navigation-menu">
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Layout</a>
+                            <ul>
+                                <li><a class="is-submenu" href="_components-layout-grid.html">Grid system</a></li>
+                                <li><a class="is-submenu" href="_components-layout-navbars.html">Navbars</a></li>
+                                <li><a class="is-submenu" href="_components-layout-video.html">Video background</a></li>
+                                <li><a class="is-submenu" href="_components-layout-parallax.html">Parallax</a></li>
+                                <li><a class="is-submenu" href="_components-layout-headers.html">Headers</a></li>
+                                <li><a class="is-submenu" href="_components-layout-footers.html">Footers</a></li>
+                                <li><a class="is-submenu" href="_components-layout-typography.html">Typography</a></li>
+                                <li><a class="is-submenu" href="_components-layout-colors.html">Colors</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">view_stream</span>Sections</a>
+                            <ul>
+                                <li><a class="is-submenu" href="_components-sections-features.html">Features</a></li>
+                                <li><a class="is-submenu" href="_components-sections-pricing.html">Pricing</a></li>
+                                <li><a class="is-submenu" href="_components-sections-team.html">Team</a></li>
+                                <li><a class="is-submenu" href="_components-sections-testimonials.html">Testimonials</a></li>
+                                <li><a class="is-submenu" href="_components-sections-clients.html">Clients</a></li>
+                                <li><a class="is-submenu" href="_components-sections-counters.html">Counters</a></li>
+                                <li><a class="is-submenu" href="_components-sections-carousel.html">Carousel</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">playlist_add_check</span>Basic UI</a>
+                            <ul>
+                                <li><a class="is-submenu" href="_components-basicui-cards.html">Cards</a></li>
+                                <li><a class="is-submenu" href="_components-basicui-buttons.html">Buttons</a></li>
+                                <li><a class="is-submenu" href="_components-basicui-dropdowns.html">Dropdowns</a></li>
+                                <li><a class="is-submenu" href="_components-basicui-lists.html">Lists</a></li>
+                                <li><a class="is-submenu" href="_components-basicui-modals.html">Modals</a></li>
+                                <li><a class="is-submenu" href="_components-basicui-tabs.html">Tabs & pills</a></li>
+                                <li><a class="is-submenu" href="_components-basicui-accordion.html">Accordions</a></li>
+                                <li><a class="is-submenu" href="_components-basicui-badges.html">Badges & labels</a></li>
+                                <li><a class="is-submenu" href="_components-basicui-popups.html">Popups</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">playlist_add</span>Advanced UI</a>
+                            <ul>
+                                <li><a class="is-submenu" href="_components-advancedui-tables.html">Tables</a></li>
+                                <li><a class="is-submenu" href="_components-advancedui-timeline.html">Timeline</a></li>
+                                <li><a class="is-submenu" href="_components-advancedui-boxes.html">Boxes</a></li>
+                                <li><a class="is-submenu" href="_components-advancedui-messages.html">Messages</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">check_box</span>Forms</a>
+                            <ul>
+                                <li><a class="is-submenu" href="_components-forms-inputs.html">Inputs</a></li>
+                                <li><a class="is-submenu" href="_components-forms-controls.html">Controls</a></li>
+                                <li><a class="is-submenu" href="_components-forms-layouts.html">Form layouts</a></li>
+                                <li><a class="is-submenu" href="_components-forms-uploader.html">Uploader</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">adjust</span>Icons</a>
+                            <ul>
+                                <li><a class="is-submenu" href="_components-icons-im.html">Icons Mind</a></li>
+                                <li><a class="is-submenu" href="_components-icons-sl.html">Simple Line Icons</a></li>
+                                <li><a class="is-submenu" href="_components-icons-fa.html">Font Awesome</a></li>
+                                <li><a class="is-submenu" href="https://material.io/icons/" target="_blank">Material Icons</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Navigation menu -->
+
+                <!-- Navigation menu -->
+                <div id="extras" class="navigation-menu-wrapper animated preFadeInRight fadeInRight is-hidden">
+                    <!-- Navigation Header -->
+                    <div class="navigation-menu-header">
+                        <span>Extras</span>
+                        <a class="ml-auto hamburger-btn navigation-close" href="javascript:void(0);">
+                            <span class="menu-toggle">  
+                                <span class="icon-box-toggle">  
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i> 
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- Navigation body -->
+                    <ul class="navigation-menu">
+                        <li class="has-children"><a class="parent-link" href="#"><span class="material-icons">dashboard</span>Dashboard kit</a>
+                            <ul>
+                                <li><a class="is-submenu" href="dashboard.html">Main Layout</a></li>
+                                <li><a class="is-submenu" href="dashboard-dark-nav.html">Dark Sidebar</a></li>
+                                <li><a class="is-submenu" href="dashboard-blank.html">Blank page</a></li>
+                                <li><a class="is-submenu" href="dashboard-chartjs.html">Chartjs charts</a></li>
+                                <li><a class="is-submenu" href="dashboard-billboardjs.html">Billboardjs charts</a></li>
+                                <li><a class="is-submenu" href="dashboard-peityjs.html">Peity charts</a></li>
+                                <li><a class="is-submenu" href="dashboard-widgets-data.html">Data widgets</a></li>
+                                <li><a class="is-submenu" href="dashboard-widgets-social.html">Social widgets</a></li>
+                                <li><a class="is-submenu" href="dashboard-feed.html">Dashboard feed</a></li>
+                                <li><a class="is-submenu" href="dashboard-feed-post.html">Feed post</a></li>
+                                <li><a class="is-submenu" href="dashboard-login.html">Login</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Navigation menu -->
+            </div>
+            <!-- /Side navigation -->
+
+            <!-- Back To Top Button -->
+            <div id="backtotop"><a href="#"></a></div>
+        <!--Script JS-->
+            <script src="assets/js/core/jquery.min.js"></script>
+            <script src="assets/js/core/modernizr.min.js"></script>
+            <!-- Plugins js -->
+            <script src="assets/js/slick-carousel/slick.min.js"></script>
+            <script src="assets/js/ggpopover/ggtooltip.js"></script>
+            <script src="assets/js/wallop/Wallop.min.js"></script>
+            <script src="assets/js/waypoints/jquery.waypoints.min.js"></script>
+            <script src="assets/js/counterup/jquery.counterup.min.js"></script>
+            <script src="assets/js/slick-carousel/slick.min.js"></script>
+            <script src="assets/js/scrollreveal/scrollreveal.min.js"></script>
+            <script src="assets/js/chosen/chosen.jquery.min.js"></script>
+            <!-- Bulkit js -->
+            <script src="assets/js/main.js"></script>
+            <!-- Page specific js -->
+            <script src="assets/js/pages/agency.js"></script>
+            
+            <script src="assets/js/scrollspy/scrollspy.min.js"></script>
+            <script src="assets/js/waypoints/sticky.min.js"></script>
+            <script src="assets/js/vivus/vivus.min.js"></script>
+            <script src="assets/js/highlightjs/highlight.pack.js"></script>
+            <script src="assets/js/pages/index.js"></script>
+            <script src="assets/js/pages/demo.js"></script>
+        <script src="assets/js/pages/components-modals.js"></script>
+    </body>
+</html>
